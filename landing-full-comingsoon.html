@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Masul Digital — Coming Soon | AI Front Office for South East London</title>
+<meta name="description" content="Masul Digital is the AI-powered digital front office for local businesses in South East London. Falcon answers every call, web chat, WhatsApp & SMS 24/7. Plus websites, QR menus, Google Business & the Masul Data Desk. From £79/mo — 14-day free trial." />
+<meta name="theme-color" content="#0087A8" />
+<link rel="canonical" href="https://masuldigital.co.uk/" />
+<link rel="icon" href="assets/favicon.ico" />
+<link rel="apple-touch-icon" href="assets/mark-512.png" />
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Masul Digital" />
+<meta property="og:title" content="Masul Digital — Coming Soon" />
+<meta property="og:description" content="Falcon answers every call, day or night. AI reception, websites, QR menus, Google Business & the Data Desk for local businesses in South East London. From £79/mo." />
+<meta property="og:url" content="https://masuldigital.co.uk/" />
+<meta property="og:image" content="https://masuldigital.co.uk/assets/mark-512.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Masul Digital — Coming Soon" />
+<meta name="twitter:description" content="Falcon answers every call, day or night. From £79/mo — 14-day free trial. South East London." />
+<meta name="twitter:image" content="https://masuldigital.co.uk/assets/mark-512.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Jost:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Masul Digital",
+  "description": "AI-powered digital front office for local businesses — AI receptionist, websites, QR menus, Google Business & reviews, and document cleanup.",
+  "url": "https://masuldigital.co.uk/",
+  "image": "https://masuldigital.co.uk/assets/mark-512.png",
+  "telephone": "+44 7375 440623",
+  "email": "info@masuldigital.co.uk",
+  "areaServed": "London, & across UK",
+  "address": { "@type": "PostalAddress", "addressRegion": "London", "addressCountry": "GB" },
+  "parentOrganization": { "@type": "Organization", "name": "Masul Group" }
+}
+</script>
+
+<style>
+  :root{
+    --teal:#0087A8; --teal-dark:#006580; --teal-light:#E0F4F9;
+    --ink:#1A1614; --white:#FFFFFF;
+    --n-50:#F7F8FA; --n-100:#EFF1F4; --n-200:#E8EAED;
+    --n-400:#9AA0A6; --n-600:#5F6368; --n-800:#2A2724;
+
+    --accent:var(--teal); --accent-dark:var(--teal-dark); --accent-tint:var(--teal-light);
+    --bg:var(--white); --fg:var(--ink);
+    --surface:var(--n-50); --surface-2:var(--white);
+    --line:var(--n-200); --muted:var(--n-600);
+
+    --maxw:1180px;
+    --pad-x:clamp(20px,4vw,48px);
+    --r-sm:7px; --r-md:11px; --r-lg:14px;
+    --nav-h:64px;
+    --ok:#1f9d57;
+  }
+  [data-theme="ink"]{
+    --bg:var(--ink); --fg:#F4F1EE;
+    --surface:#221E1C; --surface-2:#2C2826;
+    --line:rgba(255,255,255,0.08); --muted:#A8A29C;
+    --accent-tint:rgba(0,135,168,0.16);
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Jost',Arial,sans-serif; font-weight:400;
+    font-size:15.5px; line-height:1.6; color:var(--fg); background:var(--bg);
+    -webkit-font-smoothing:antialiased;
+    transition:background .3s ease, color .3s ease;
+    overflow-x:hidden;
+  }
+  img,svg{display:block; max-width:100%;}
+  a{color:inherit; text-decoration:none;}
+  button{font:inherit; cursor:pointer; border:none; background:none; color:inherit;}
+
+  h1,h2,h3,h4{
+    font-family:'Poppins','Trebuchet MS',Arial,sans-serif; font-weight:700;
+    line-height:1.14; letter-spacing:-0.012em; color:var(--fg); text-wrap:balance;
+  }
+  .eyebrow{
+    font-family:'Jost',sans-serif; font-weight:500; font-size:11px;
+    letter-spacing:0.32em; text-transform:uppercase; color:var(--accent);
+  }
+  .mono{font-family:'JetBrains Mono',monospace;}
+
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 var(--pad-x);}
+
+  /* ───── Buttons ───── */
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:9px;
+    font-family:'Poppins',sans-serif; font-weight:600; font-size:14.5px;
+    padding:13px 22px; border-radius:var(--r-md); white-space:nowrap;
+    transition:transform .18s ease, box-shadow .2s ease, background .2s, border-color .2s, color .2s;
+  }
+  .btn svg{width:16px; height:16px;}
+  .btn-primary{background:var(--accent); color:#fff; box-shadow:0 14px 30px -12px rgba(0,135,168,.6);}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 20px 40px -14px rgba(0,135,168,.7);}
+  .btn-ghost{background:transparent; color:var(--fg); border:1px solid var(--line);}
+  .btn-ghost:hover{border-color:var(--accent); color:var(--accent); transform:translateY(-2px);}
+  .btn-wa{background:#25D366; color:#06321a; box-shadow:0 14px 30px -12px rgba(37,211,102,.55);}
+  .btn-wa:hover{transform:translateY(-2px); box-shadow:0 20px 40px -14px rgba(37,211,102,.65);}
+
+  /* ───── Nav ───── */
+  .nav{
+    position:sticky; top:0; z-index:50;
+    background:color-mix(in srgb, var(--bg) 86%, transparent);
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{height:var(--nav-h); display:flex; align-items:center; justify-content:space-between; gap:24px;}
+  .nav-logo{display:flex; align-items:center; gap:11px;}
+  .nav-mark{width:36px; height:36px; flex-shrink:0;}
+  .nav-mark svg{width:100%; height:100%;}
+  .nav-word{font-family:'Poppins',sans-serif; font-weight:700; font-size:17px; letter-spacing:-0.01em;}
+  .nav-word span{color:var(--accent);}
+  .nav-right{display:flex; align-items:center; gap:10px;}
+  .nav-sub{font-size:11px; color:var(--muted); letter-spacing:.02em; display:none;}
+  @media(min-width:560px){ .nav-sub{display:block;} }
+  .icon-btn{
+    width:40px; height:40px; border-radius:10px; border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center; color:var(--muted);
+    transition:border-color .2s, color .2s;
+  }
+  .icon-btn:hover{border-color:var(--accent); color:var(--accent);}
+  .icon-btn svg{width:18px; height:18px;}
+  .nav-cta{display:none;}
+  @media(min-width:720px){ .nav-cta{display:inline-flex;} }
+
+  /* ───── Hero ───── */
+  .hero{position:relative; overflow:hidden; padding:clamp(48px,7vw,86px) 0 clamp(56px,7vw,90px);}
+  .hero::before{
+    content:''; position:absolute; z-index:0; left:50%; top:-160px; transform:translateX(-30%);
+    width:760px; height:760px; border-radius:50%;
+    background:radial-gradient(circle, color-mix(in srgb,var(--accent) 18%, transparent), transparent 62%);
+    filter:blur(20px); pointer-events:none;
+  }
+  .hero-grid{position:relative; z-index:1; display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(28px,5vw,64px); align-items:center;}
+  @media(max-width:920px){ .hero-grid{grid-template-columns:1fr;} }
+
+  .pill{
+    display:inline-flex; align-items:center; gap:9px;
+    background:var(--surface-2); border:1px solid var(--line); color:var(--fg);
+    padding:8px 14px; border-radius:999px; font-size:12.5px; font-weight:500;
+    box-shadow:0 8px 22px -16px rgba(0,0,0,.3); margin-bottom:22px;
+  }
+  .pill .dot{width:8px; height:8px; border-radius:50%; background:var(--accent); animation:dot 2.2s ease-in-out infinite;}
+  @keyframes dot{0%,100%{box-shadow:0 0 0 0 rgba(0,135,168,.45);}60%{box-shadow:0 0 0 6px rgba(0,135,168,0);}}
+
+  .hero h1{font-size:clamp(33px,5.2vw,57px); line-height:1.05; letter-spacing:-0.025em; margin-bottom:20px;}
+  .hero h1 em{font-style:normal; color:var(--accent); position:relative; white-space:nowrap;}
+  .hero h1 em::after{content:''; position:absolute; left:0; right:0; bottom:.05em; height:.12em; background:var(--accent-tint); border-radius:4px; z-index:-1;}
+  .lede{color:var(--muted); font-size:clamp(16px,1.7vw,18.5px); line-height:1.62; max-width:54ch; margin-bottom:18px;}
+  .trust-mini{display:flex; align-items:center; gap:10px; margin-bottom:26px; font-size:12.5px; color:var(--muted); letter-spacing:.02em;}
+  .trust-mini .stars{color:#F5A623; letter-spacing:1px; font-size:12px;}
+  .trust-mini b{color:var(--fg); font-family:'Poppins',sans-serif; font-weight:600;}
+  .hero-cta{display:flex; flex-wrap:wrap; gap:12px; margin-bottom:30px;}
+
+  .hero-meta{display:flex; gap:clamp(18px,3vw,34px); flex-wrap:wrap;}
+  .hero-meta .k{font-family:'Poppins',sans-serif; font-weight:700; font-size:23px; color:var(--fg); line-height:1;}
+  .hero-meta .v{font-size:11.5px; color:var(--muted); margin-top:5px; letter-spacing:.02em;}
+
+  /* Hero visual — live Falcon call */
+  .stage{position:relative; display:flex; align-items:center; justify-content:center; min-height:440px;}
+  @media(max-width:920px){ .stage{min-height:0; margin-top:14px;} }
+  .glow{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:340px; height:340px; border-radius:50%;
+    background:radial-gradient(circle, color-mix(in srgb,var(--accent) 34%, transparent), transparent 68%); filter:blur(28px); animation:glow 6s ease-in-out infinite;}
+  @keyframes glow{0%,100%{transform:translate(-50%,-50%) scale(1); opacity:.85;}50%{transform:translate(-50%,-50%) scale(1.08); opacity:1;}}
+
+  .callcard{position:relative; z-index:2; width:min(390px,100%); background:var(--surface-2); border:1px solid var(--line); border-radius:18px; box-shadow:0 40px 80px -36px rgba(0,0,0,.4); overflow:hidden;}
+  .call-head{display:flex; align-items:center; gap:12px; padding:16px 18px; border-bottom:1px solid var(--line); background:color-mix(in srgb,var(--accent) 6%, var(--surface-2));}
+  .orb{width:42px; height:42px; border-radius:12px; background:var(--accent); color:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+  .wave{display:flex; align-items:center; gap:3px; height:22px;}
+  .wave i{width:3px; height:6px; border-radius:3px; background:#fff; animation:wv 1.1s ease-in-out infinite;}
+  .wave i:nth-child(2){animation-delay:.12s} .wave i:nth-child(3){animation-delay:.24s} .wave i:nth-child(4){animation-delay:.36s}
+  .wave i:nth-child(5){animation-delay:.48s} .wave i:nth-child(6){animation-delay:.6s} .wave i:nth-child(7){animation-delay:.72s}
+  @keyframes wv{0%,100%{height:6px; opacity:.5}50%{height:18px; opacity:1}}
+  .call-who b{display:block; font-family:'Poppins',sans-serif; font-weight:600; font-size:13.5px;}
+  .call-who span{font-size:11px; color:var(--muted);}
+  .call-live{margin-left:auto; display:flex; align-items:center; gap:6px; font-size:11px; font-weight:600; color:var(--ok); font-family:'Poppins',sans-serif;}
+  .call-live .pulse{width:7px; height:7px; border-radius:50%; background:var(--ok); animation:pulse 1.6s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(31,157,87,.5);}60%{box-shadow:0 0 0 6px rgba(31,157,87,0);}}
+  .thread{padding:16px 16px 6px; display:flex; flex-direction:column; gap:10px;}
+  .bubble{font-size:12.8px; line-height:1.5; padding:10px 13px; border-radius:13px; max-width:88%; position:relative;}
+  .bubble .lab{display:block; font-size:9.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; margin-bottom:3px; opacity:.7; font-family:'Poppins',sans-serif;}
+  .bubble.ai{background:var(--accent); color:#fff; align-self:flex-start; border-bottom-left-radius:4px;}
+  .bubble.caller{background:var(--surface); border:1px solid var(--line); align-self:flex-end; border-bottom-right-radius:4px;}
+  .call-result{display:flex; flex-wrap:wrap; gap:8px; padding:12px 16px 16px;}
+  .call-tag{display:inline-flex; align-items:center; gap:6px; font-size:11px; font-weight:600; font-family:'Poppins',sans-serif; padding:6px 11px; border-radius:999px; background:rgba(31,157,87,.12); color:var(--ok);}
+  .call-tag.book{background:var(--accent-tint); color:var(--accent-dark);}
+  [data-theme="ink"] .call-tag.book{color:var(--accent);}
+  .call-tag svg{width:12px; height:12px;}
+
+  .chip{position:absolute; z-index:3; background:var(--surface-2); border:1px solid var(--line); border-radius:14px; padding:11px 14px; box-shadow:0 18px 40px -16px rgba(0,0,0,.28); display:flex; align-items:center; gap:10px; font-size:12px;}
+  .chip .ic{width:30px; height:30px; border-radius:9px; flex-shrink:0; display:flex; align-items:center; justify-content:center; background:var(--accent-tint); color:var(--accent);}
+  .chip .ic svg{width:16px; height:16px;}
+  .chip b{font-family:'Poppins',sans-serif; font-weight:600; display:block; font-size:12.5px;}
+  .chip span{color:var(--muted); font-size:11px;}
+  .chip.booked{left:-26px; top:-34px; transform:rotate(-4deg);}
+  .chip.saved{right:-26px; bottom:18px; transform:rotate(4deg);}
+  .chip.saved .ic{background:rgba(31,157,87,.14); color:var(--ok);}
+  @media(max-width:920px){ .chip.booked{left:-6px; top:-26px;} .chip.saved{right:-6px; bottom:8px;} }
+  @media(max-width:430px){ .chip{display:none;} }
+
+  /* ───── Trust strip ───── */
+  .strip{border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--surface);}
+  .strip-inner{display:flex; align-items:center; flex-wrap:wrap; gap:14px 26px; padding:18px 0;}
+  .strip-label{font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--muted); font-weight:500;}
+  .strip-types{display:flex; flex-wrap:wrap; gap:10px 22px;}
+  .strip-type{font-family:'Poppins',sans-serif; font-weight:600; font-size:14px; color:var(--fg); opacity:.78;}
+
+  /* ───── Sections ───── */
+  .section{padding:clamp(56px,8vw,96px) 0;}
+  .sec-head{max-width:680px; margin-bottom:clamp(32px,4vw,48px);}
+  .sec-head h2{font-size:clamp(27px,3.6vw,42px); line-height:1.08; margin:12px 0 14px;}
+  .sec-head p{color:var(--muted); font-size:17px; line-height:1.62;}
+
+  .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+  @media(max-width:900px){ .cards{grid-template-columns:1fr 1fr;} }
+  @media(max-width:600px){ .cards{grid-template-columns:1fr;} }
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--r-lg); padding:26px; display:flex; flex-direction:column; gap:13px; transition:border-color .2s, transform .2s;}
+  .card:hover{border-color:var(--accent); transform:translateY(-4px);}
+  .card .ci{width:46px; height:46px; border-radius:12px; background:var(--accent-tint); color:var(--accent); display:flex; align-items:center; justify-content:center;}
+  .card .ci svg{width:24px; height:24px;}
+  .card h3{font-size:19px; letter-spacing:-0.01em;}
+  .card p{color:var(--muted); font-size:14px; line-height:1.58; flex:1;}
+  .card .tags{display:flex; flex-wrap:wrap; gap:7px; padding-top:14px; border-top:1px solid var(--line);}
+  .tag{font-size:11.5px; font-weight:500; padding:5px 10px; border-radius:999px; background:var(--surface-2); border:1px solid var(--line); color:var(--muted);}
+
+  /* ───── Pricing teaser ───── */
+  .price-band{background:var(--surface); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .price-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:clamp(28px,5vw,56px); align-items:center;}
+  @media(max-width:860px){ .price-grid{grid-template-columns:1fr;} }
+  .price-grid h2{font-size:clamp(26px,3.3vw,38px); margin-bottom:14px; line-height:1.1;}
+  .price-grid p{color:var(--muted); font-size:16.5px; line-height:1.6; margin-bottom:22px;}
+  .plist{display:flex; flex-direction:column; gap:11px; margin-bottom:26px;}
+  .pitem{display:flex; align-items:flex-start; gap:11px; font-size:14.5px;}
+  .pitem svg{width:19px; height:19px; color:var(--accent); flex-shrink:0; margin-top:1px;}
+  .price-card{background:var(--surface-2); border:1px solid var(--line); border-radius:18px; padding:30px; box-shadow:0 30px 70px -40px rgba(0,0,0,.35);}
+  .price-card .from{font-size:13px; color:var(--muted); letter-spacing:.02em;}
+  .price-card .amt{font-family:'Poppins',sans-serif; font-weight:800; font-size:52px; line-height:1; letter-spacing:-0.03em; margin:6px 0 4px; color:var(--fg);}
+  .price-card .amt small{font-size:18px; font-weight:600; color:var(--muted);}
+  .price-card .note{font-size:13px; color:var(--muted); margin-bottom:20px;}
+  .price-card .trial{display:inline-flex; align-items:center; gap:8px; background:var(--accent-tint); color:var(--accent-dark); font-family:'Poppins',sans-serif; font-weight:600; font-size:12.5px; padding:7px 13px; border-radius:999px; margin-bottom:22px;}
+  [data-theme="ink"] .price-card .trial{color:var(--accent);}
+  .price-card .btn{width:100%;}
+
+  /* ───── CTA band ───── */
+  .cta{position:relative; overflow:hidden; background:var(--ink); color:#F4F1EE; border-radius:0;}
+  .cta::before{content:''; position:absolute; right:-8%; top:-30%; width:520px; height:520px; border-radius:50%; background:radial-gradient(circle, rgba(0,135,168,.45), transparent 66%); filter:blur(10px);}
+  .cta-inner{position:relative; z-index:1; text-align:center; padding:clamp(56px,8vw,96px) 0;}
+  .cta h2{color:#fff; font-size:clamp(28px,4vw,46px); line-height:1.08; margin-bottom:16px;}
+  .cta p{color:rgba(244,241,238,.78); font-size:17.5px; max-width:56ch; margin:0 auto 30px;}
+  .cta-row{display:flex; flex-wrap:wrap; gap:13px; justify-content:center;}
+  .cta .btn-ghost{color:#fff; border-color:rgba(255,255,255,.28);}
+  .cta .btn-ghost:hover{border-color:#fff; color:#fff; background:rgba(255,255,255,.06);}
+  .cta-foot{margin-top:26px; font-size:13px; color:rgba(244,241,238,.6); display:flex; flex-wrap:wrap; gap:8px 18px; justify-content:center;}
+  .cta-foot a{color:#fff; font-weight:500;}
+  .cta-foot a:hover{color:var(--teal-light);}
+
+  /* ───── Footer ───── */
+  footer{background:var(--bg); border-top:1px solid var(--line); padding:40px 0 34px;}
+  .foot-inner{display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px;}
+  .foot-logo{display:flex; align-items:center; gap:11px;}
+  .foot-logo .nav-mark{width:30px; height:30px;}
+  .foot-logo b{font-family:'Poppins',sans-serif; font-weight:700; font-size:15px;}
+  .foot-meta{font-size:12.5px; color:var(--muted); text-align:right;}
+  .foot-meta a{color:var(--muted);} .foot-meta a:hover{color:var(--accent);}
+
+  /* ── coming-soon: notify capture (inside dark CTA band) ── */
+  .cta .notify{display:flex; gap:9px; max-width:470px; margin:0 auto 12px; flex-wrap:wrap;}
+  .cta .notify input{flex:1; min-width:0; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.24); color:#fff; border-radius:var(--r-md); padding:14px 16px; font-size:15px; font-family:'Jost',sans-serif; transition:border-color .2s, box-shadow .2s;}
+  .cta .notify input::placeholder{color:rgba(244,241,238,0.6);}
+  .cta .notify input:focus{outline:none; border-color:#fff; box-shadow:0 0 0 3px rgba(255,255,255,0.16);}
+  .cta .notify .btn-primary{flex-shrink:0; background:var(--accent); color:#fff; box-shadow:0 14px 30px -12px rgba(0,135,168,0.6);}
+  @media(max-width:480px){ .cta .notify .btn-primary{width:100%;} }
+  .cta .notify-note{font-size:12.5px; color:rgba(244,241,238,0.65); margin:0 auto 26px; min-height:18px; transition:color .2s;}
+  .cta .notify-note.ok{color:#7CE0A3; font-weight:500;}
+
+  /* ── Masul Group endorsement (footer) ── */
+  .foot-endorse{display:flex; align-items:center; justify-content:flex-end; gap:10px; flex-wrap:wrap; margin-bottom:8px;}
+  .foot-endorse .lbl{font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); white-space:nowrap;}
+  .foot-endorse img{height:26px; width:auto;}
+  .foot-endorse .dark-only{display:none;}
+  [data-theme="ink"] .foot-endorse .light-only{display:none;}
+  [data-theme="ink"] .foot-endorse .dark-only{display:block;}
+  @media(max-width:640px){ .foot-endorse{justify-content:flex-start;} }
+
+  @media(prefers-reduced-motion:reduce){
+    .wave i,.glow,.pill .dot,.call-live .pulse,*{animation:none !important; scroll-behavior:auto !important;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ───────── NAV ───────── -->
+<nav class="nav">
+  <div class="wrap nav-inner">
+    <a class="nav-logo" href="#top" aria-label="Masul Digital home">
+      <span class="nav-mark" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="M 80,255 Q 80,100 200,100 Q 320,100 320,255" stroke="#0087A8" stroke-width="18"/><path d="M 116,255 Q 116,138 200,138 Q 284,138 284,255" stroke="#0087A8" stroke-width="14" opacity="0.82"/><path d="M 152,255 Q 152,176 200,176 Q 248,176 248,255" stroke="#0087A8" stroke-width="11" opacity="0.6"/><line x1="62" y1="255" x2="338" y2="255" stroke="#0087A8" stroke-width="16" stroke-linecap="round"/><line x1="116" y1="255" x2="116" y2="278" stroke="#0087A8" stroke-width="11" stroke-linecap="round"/><line x1="200" y1="255" x2="200" y2="286" stroke="#0087A8" stroke-width="11" stroke-linecap="round"/><line x1="284" y1="255" x2="284" y2="278" stroke="#0087A8" stroke-width="11" stroke-linecap="round"/></g><circle cx="200" cy="255" r="10" fill="#0087A8"/><circle cx="116" cy="255" r="5.5" fill="#0087A8" opacity="0.45"/><circle cx="284" cy="255" r="5.5" fill="#0087A8" opacity="0.45"/></svg>
+      </span>
+      <span>
+        <span class="nav-word">Masul<span>Digital</span></span>
+        <span class="nav-sub">A subsidiary of Masul Group</span>
+      </span>
+    </a>
+    <div class="nav-right">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+      <a class="btn btn-primary nav-cta" href="https://wa.me/447375440623?text=Hi%20Masul%20Digital%2C%20I%27d%20like%20a%20free%20digital%20check%20for%20my%20business" target="_blank" rel="noopener">
+        Free digital check
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ───────── HERO ───────── -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill"><span class="dot"></span> Launching soon · site in final testing</span>
+      <h1>Meet Falcon — the AI receptionist that answers <em>every call</em>, day or night.</h1>
+      <p class="lede">Masul Digital is the AI-powered digital front office for local businesses in South East London. Falcon answers your phone, web chat, WhatsApp &amp; SMS around the clock — and we build the websites, QR menus and Google profiles that get you found.</p>
+      <div class="trust-mini">
+        <span class="stars">★★★★★</span>
+        <span><b>Responsible · Trusted · Lasting</b> — a subsidiary of Masul Group</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-wa" href="https://wa.me/447375440623?text=Hi%20Masul%20Digital%2C%20I%27d%20like%20to%20hear%20how%20Falcon%20works%20for%20my%20business" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.76.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.16c-.24.68-1.42 1.32-1.96 1.36-.5.05-.97.23-3.27-.68-2.77-1.09-4.5-3.95-4.64-4.13-.13-.18-1.1-1.47-1.1-2.8 0-1.33.7-1.98.95-2.25.24-.27.53-.34.71-.34l.5.01c.16 0 .38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.49-.09.18-.14.29-.27.45l-.4.47c-.13.13-.27.28-.12.55.16.27.7 1.15 1.5 1.86 1.04.93 1.9 1.22 2.17 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.07.18-.27.36-.22.6-.13.25.09 1.58.74 1.85.88.27.13.45.2.52.31.07.11.07.64-.17 1.32Z"/></svg>
+          Chat on WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="mailto:info@masuldigital.co.uk?subject=Free%20digital%20check%20-%20Masul%20Digital&amp;body=Hi%20Masul%20Digital%2C%20I%27d%20like%20a%20free%20digital%20check.%20My%20business%20is%3A">
+          Get a free digital check
+        </a>
+      </div>
+      <div class="hero-meta">
+        <div><div class="k">24/7</div><div class="v mono">calls answered by AI</div></div>
+        <div><div class="k">&lt;1s</div><div class="v mono">pickup, every time</div></div>
+        <div><div class="k">3–7 days</div><div class="v mono">to build the rest</div></div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <span class="glow" aria-hidden="true"></span>
+
+      <div class="chip booked" aria-hidden="true">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
+        <span><b>Booked · Mon 9:30</b><span>confirmed by SMS</span></span>
+      </div>
+
+      <div class="callcard" aria-hidden="true">
+        <div class="call-head">
+          <span class="orb"><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></span>
+          <div class="call-who"><b>Falcon · answering for you</b><span>Incoming call · Sun 02:14</span></div>
+          <span class="call-live"><span class="pulse"></span>Live</span>
+        </div>
+        <div class="thread">
+          <div class="bubble ai"><span class="lab">Falcon</span>Good evening, thanks for calling Brightway Plumbing. How can I help?</div>
+          <div class="bubble caller"><span class="lab">Caller</span>Hi — burst pipe under the sink, water everywhere.</div>
+          <div class="bubble ai"><span class="lab">Falcon</span>I can get someone out to you. What's the postcode, and is it safe to turn the stopcock off?</div>
+          <div class="bubble caller"><span class="lab">Caller</span>SE15. Yeah, turned it off.</div>
+          <div class="bubble ai"><span class="lab">Falcon</span>Booked an emergency visit for 9:30 and texted confirmation. Mike will call 20 minutes before.</div>
+        </div>
+        <div class="call-result">
+          <span class="call-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Lead qualified</span>
+          <span class="call-tag book"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Booked Mon 9:30</span>
+        </div>
+      </div>
+
+      <div class="chip saved" aria-hidden="true">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span>
+        <span><b>+£480 job saved</b><span>was an after-hours call</span></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ───────── TRUST STRIP ───────── -->
+<div class="strip">
+  <div class="wrap strip-inner">
+    <span class="strip-label">Built for</span>
+    <div class="strip-types">
+      <span class="strip-type">Restaurants &amp; cafés</span>
+      <span class="strip-type">Salons &amp; barbers</span>
+      <span class="strip-type">Clinics</span>
+      <span class="strip-type">Trades</span>
+      <span class="strip-type">Retail &amp; local shops</span>
+    </div>
+  </div>
+</div>
+
+<!-- ───────── WHAT WE DO ───────── -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">The digital front office</span>
+      <h2>One partner for the whole front of your business.</h2>
+      <p>From the first ring to the five-star review — Masul Digital handles the digital work that local businesses never have time for.</p>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg></div>
+        <h3>Falcon AI receptionist</h3>
+        <p>Answers calls, web chat, WhatsApp &amp; SMS 24/7 in a natural voice. Qualifies leads, books jobs, and texts confirmations — so you never miss a customer again.</p>
+        <div class="tags"><span class="tag">Calls &amp; SMS</span><span class="tag">Bookings</span><span class="tag">After-hours</span></div>
+      </div>
+      <div class="card">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="11" width="3" height="6"/><rect x="12" y="7" width="3" height="10"/><rect x="17" y="13" width="3" height="4"/></svg></div>
+        <h3>Masul Data Desk</h3>
+        <p>Send us your messy receipts, invoices and spreadsheets — we turn them into clean, organised data and clear reports you can actually use. Send a sample free.</p>
+        <div class="tags"><span class="tag">Invoices</span><span class="tag">Spreadsheets</span><span class="tag">Reports</span></div>
+      </div>
+      <div class="card">
+        <div class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+        <h3>Websites &amp; local growth</h3>
+        <p>Fast, modern websites, QR menus, Google Business profiles and review systems — everything you need to get found locally and look the part. Live in 3–7 days.</p>
+        <div class="tags"><span class="tag">Websites</span><span class="tag">QR menus</span><span class="tag">Google &amp; reviews</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── PRICING TEASER ───────── -->
+<section class="price-band">
+  <div class="wrap section">
+    <div class="price-grid">
+      <div>
+        <span class="eyebrow">Simple, local pricing</span>
+        <h2>Plans from £79/month — start with a 14-day free trial.</h2>
+        <p>Three monthly plans for solo traders, growing SMEs and busy clinics. No credit card to start. One-time £199 setup, waived on annual.</p>
+        <div class="plist">
+          <div class="pitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 14-day free trial — no card needed to start</div>
+          <div class="pitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> One-time £199 setup, waived on annual plans</div>
+          <div class="pitem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Cancel anytime · local support, real people</div>
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="from">Falcon AI · from</div>
+        <div class="amt">£79<small>/mo</small></div>
+        <div class="note">Your AI receptionist, answering 24/7.</div>
+        <span class="trial">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          14-day free trial
+        </span>
+        <a class="btn btn-primary" href="https://wa.me/447375440623?text=Hi%20Masul%20Digital%2C%20I%27d%20like%20to%20start%20a%20free%20trial%20of%20Falcon%20AI" target="_blank" rel="noopener">Start free trial</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── CTA ───────── -->
+<section class="cta">
+  <div class="wrap cta-inner">
+    <h2>We're launching soon — be first in line.</h2>
+    <p>Falcon and the full Masul Digital front office are in final testing. Leave your email and we'll tell you the moment we go live — or reach us now.</p>
+    <form class="notify" id="notifyForm" novalidate>
+      <input type="email" id="notifyEmail" name="email" placeholder="Your email — be first to know" autocomplete="email" required aria-label="Your email address" />
+      <button type="submit" class="btn btn-primary">Notify me</button>
+    </form>
+    <p class="notify-note" id="notifyNote">No spam — just a single message when we go live.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="https://wa.me/447375440623?text=Hi%20Masul%20Digital%2C%20I%27d%20like%20a%20free%20digital%20check%20for%20my%20business" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.76.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.16c-.24.68-1.42 1.32-1.96 1.36-.5.05-.97.23-3.27-.68-2.77-1.09-4.5-3.95-4.64-4.13-.13-.18-1.1-1.47-1.1-2.8 0-1.33.7-1.98.95-2.25.24-.27.53-.34.71-.34l.5.01c.16 0 .38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.49-.09.18-.14.29-.27.45l-.4.47c-.13.13-.27.28-.12.55.16.27.7 1.15 1.5 1.86 1.04.93 1.9 1.22 2.17 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.07.18-.27.36-.22.6-.13.25.09 1.58.74 1.85.88.27.13.45.2.52.31.07.11.07.64-.17 1.32Z"/></svg>
+        Chat on WhatsApp
+      </a>
+      <a class="btn btn-ghost" href="mailto:info@masuldigital.co.uk?subject=Free%20digital%20check%20-%20Masul%20Digital">Email us</a>
+    </div>
+    <div class="cta-foot">
+      <span>WhatsApp / call: <a href="tel:+447375440623">+44 7375 440623</a></span>
+      <span><a href="mailto:info@masuldigital.co.uk">info@masuldigital.co.uk</a></span>
+      <span>South East London, UK</span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── FOOTER ───────── -->
+<footer>
+  <div class="wrap foot-inner">
+    <div class="foot-logo">
+      <span class="nav-mark" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg"><g fill="none"><path d="M 80,255 Q 80,100 200,100 Q 320,100 320,255" stroke="#0087A8" stroke-width="18"/><path d="M 116,255 Q 116,138 200,138 Q 284,138 284,255" stroke="#0087A8" stroke-width="14" opacity="0.82"/><path d="M 152,255 Q 152,176 200,176 Q 248,176 248,255" stroke="#0087A8" stroke-width="11" opacity="0.6"/><line x1="62" y1="255" x2="338" y2="255" stroke="#0087A8" stroke-width="16" stroke-linecap="round"/></g><circle cx="200" cy="255" r="10" fill="#0087A8"/></svg>
+      </span>
+      <b>Masul Digital</b>
+    </div>
+    <div class="foot-meta">
+      <div class="foot-endorse">
+        <span class="lbl">A subsidiary of</span>
+        <img class="light-only" src="assets/brand/masul-group-lockup-horizontal-light.svg" alt="Masul Group — Holding Company" width="147" height="26" />
+        <img class="dark-only" src="assets/brand/masul-group-lockup-horizontal-white.svg" alt="Masul Group — Holding Company" width="147" height="26" />
+      </div>
+      © 2026 Masul Digital ·
+      <a href="https://wa.me/447375440623" target="_blank" rel="noopener">WhatsApp</a> ·
+      <a href="mailto:info@masuldigital.co.uk">Email</a> · South East London, UK
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var root = document.documentElement;
+    var key = 'masul-theme';
+    var saved = null;
+    try { saved = localStorage.getItem(key); } catch(e){}
+    if (saved === 'ink' || (!saved && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      root.setAttribute('data-theme','ink');
+    }
+    var btn = document.getElementById('themeToggle');
+    if (btn) btn.addEventListener('click', function(){
+      var dark = root.getAttribute('data-theme') === 'ink';
+      if (dark) root.removeAttribute('data-theme'); else root.setAttribute('data-theme','ink');
+      try { localStorage.setItem(key, dark ? 'light' : 'ink'); } catch(e){}
+    });
+
+    // Notify: no backend yet — open a pre-filled email so the signup actually reaches us.
+    var form = document.getElementById('notifyForm');
+    var input = document.getElementById('notifyEmail');
+    var note = document.getElementById('notifyNote');
+    if (form) form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var email = (input.value || '').trim();
+      var ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      if (!ok){ note.textContent = 'Please enter a valid email address.'; note.classList.remove('ok'); input.focus(); return; }
+      var subject = encodeURIComponent('Notify me when Masul Digital launches');
+      var body = encodeURIComponent('Please let me know when you go live.\n\nMy email: ' + email);
+      window.location.href = 'mailto:info@masuldigital.co.uk?subject=' + subject + '&body=' + body;
+      note.textContent = 'Thanks! Your email app is opening — send the message and you’re on the list.';
+      note.classList.add('ok');
+      form.reset();
+    });
+  })();
+</script>
+</body>
+</html>
